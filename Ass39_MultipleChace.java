@@ -2,9 +2,9 @@ package Assignment;
 
 import java.util.Scanner;
 
-class tringle
+class TRingle123
 {
-	public tringle() {
+	public TRingle123() {
 		tri3side();
 		tri4side();
 		tri5side();
@@ -64,9 +64,25 @@ class tringle
 	}
 }
 
-public class Ass27_Traingle345 {
+
+public class Ass39_MultipleChace {
 
 	public static void main(String[] args) {
-		 tringle t1=new tringle();
+		
+			try 
+			{
+			 tringle t1=new tringle();
+			}
+			catch(ArithmeticException e)
+			{
+				e.printStackTrace();
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+		
 	}
+	
 }
+
